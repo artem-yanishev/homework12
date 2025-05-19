@@ -1,0 +1,23 @@
+public class Book {
+    String title;
+    Author author;
+    int yearOfPublication;
+
+    public Book(String title, Author author, int yearOfPublication) {
+        this.title = title;
+        this.author = author;
+        this.yearOfPublication = yearOfPublication;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+    public int getYearOfPublication() {
+        return this.yearOfPublication;
+    }
+
+    public void setYearOfPublication(int yearOfPublication) {
+        this.yearOfPublication = yearOfPublication;
+    }
+}
